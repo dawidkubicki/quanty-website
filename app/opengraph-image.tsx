@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Quanty - AI-Powered Fundamental Analysis Platform";
+export const alt = "Quanty | AI-Powered Fundamental Analysis Platform";
 export const contentType = "image/png";
 
 export default async function OG() {

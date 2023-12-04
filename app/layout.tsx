@@ -2,9 +2,9 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quanty - AI-Powered Fundamental Analysis Platform",
+  title: "Quanty | AI-Powered Fundamental Analysis Platform",
   openGraph: {
-    title: "Quanty - AI-Powered Fundamental Analysis Platform",
+    title: "Quanty | AI-Powered Fundamental Analysis Platform",
     description:
       "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
     images: [
