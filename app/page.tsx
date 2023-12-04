@@ -119,10 +119,14 @@ export default function Home() {
           data-transition-in
           className="z-50 fixed top-0 right-[-2px] w-[80%] md:w-1/2 h-screen bg-[#c3e4ff]"
         ></motion.canvas>
-        <div className="h-[60px] bg-[#1E2B3A] fixed bottom-0 z-20 w-full flex flex-row items-start">
-          <p className="text-white/80 text-sm ml-20 md:text-sm font-semibold md:leading-[60px] whitespace-nowrap flex flex-row">
+        <div className="h-[60px] bg-[#1E2B3A] pt-[1.15rem] md:pt-0 fixed bottom-0 z-[1000] md:z-20 w-full flex flex-row items-start">
+          <p className="text-white/80 text-sm ml-4 md:ml-20 md:text-sm font-semibold md:leading-[60px] whitespace-nowrap flex flex-row">
           Quanty.ai © 2023
-
+          </p>
+          <p className="text-white/80 text-sm ml-10 underline md:text-xs font-semibold md:leading-[60px] whitespace-nowrap flex flex-row">
+            <Link href={"/assets/Privacy_Policy.pdf"}>
+              Privacy Policy
+            </Link>
           </p>
 
         </div>

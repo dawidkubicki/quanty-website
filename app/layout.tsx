@@ -9,7 +9,7 @@ export const metadata: Metadata = {
       "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://quanty.ai/assets/quanty-opengraph.png",
       },
     ],
   },
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: "Quanty - AI-Powered Fundamental Analysis Platform",
     description:
       "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
+    images: ["https://quanty.ai/assets/quanty-opengraph.png"],
+    creator: "@pluscodeio",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://quanty.ai"),
   themeColor: "#FFF",
 };
 
