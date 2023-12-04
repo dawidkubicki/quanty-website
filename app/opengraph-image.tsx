@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
-export const alt = "Precedent - Building blocks for your Next.js project";
+export const alt = "Quanty - AI-Powered Fundamental Analysis Platform";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -23,7 +23,7 @@ export default async function OG() {
           justifyContent: "center",
           backgroundColor: "white",
           backgroundImage:
-            "linear-gradient(to bottom right, #E0E7FF 25%, #ffffff 50%, #bde1ff 75%)",
+            "linear-gradient(to bottom right, #032E46 25%, #ffffff 50%, #23B684 75%)",
         }}
       >
         <img
@@ -31,21 +31,21 @@ export default async function OG() {
             "../public/apple-touch-icon.png",
             import.meta.url
           ).toString()}
-          alt="Liftoff Logo"
+          alt="Quanty Logo"
           tw="w-20 h-20 mb-4 opacity-95"
         />
         <h1
           style={{
             fontSize: "100px",
             background:
-              "linear-gradient(to bottom right, #1E2B3A 21.66%, #78716c 86.47%)",
+              "linear-gradient(to bottom right, #032E46 21.66%, #23B684 86.47%)",
             backgroundClip: "text",
             color: "transparent",
             lineHeight: "5rem",
             letterSpacing: "-0.02em",
           }}
         >
-          AI Mock Interviews
+          Quanty - AI-Powered Fundamental Analysis Platform
         </h1>
       </div>
     ),
