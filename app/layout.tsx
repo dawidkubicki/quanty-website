@@ -2,11 +2,11 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "Quanty - AI-Powered Fundamental Analysis Platform",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Quanty - AI-Powered Fundamental Analysis Platform",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
     images: [
       {
         url: "https://demo.useliftoff.com/opengraph-image",
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Quanty - AI-Powered Fundamental Analysis Platform",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
     images: ["https://demo.useliftoff.com/opengraph-image"],
     creator: "@tmeyer_me",
   },
