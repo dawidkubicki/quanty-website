@@ -52,7 +52,7 @@ export default function Home() {
                 What is Quanty.ai
               </h2>
               <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
-              An AI-Powered platform expertly navigates through complex 10-K filings and crypto project whitepapers, extracting key financial indicators and trends. This empowers users with a deeper understanding of company health and crypto project viability.
+              Platform delivers AI-powered cryptocurrency insights, harnessing the power of knowledge graphs for deep market understanding. Dive into a world of intelligent analytics and data-rich visualizations, all driven by advanced algorithms to guide your investment strategies.
               </p>
             </div>
             

@@ -2,11 +2,11 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quanty | AI-Powered Fundamental Analysis Platform",
+  title: "Quanty | AI-Powered Market Analysis and Insight Platform",
   openGraph: {
-    title: "Quanty | AI-Powered Fundamental Analysis Platform",
+    title: "Quanty | AI-Powered Market Analysis and Insight Platform",
     description:
-      "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
+      "Quanty is an AI-powered market analysis platform that helps you find insights from the market.",
     images: [
       {
         url: "https://quanty.ai/assets/quanty-opengraph.png",
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Quanty - AI-Powered Fundamental Analysis Platform",
+    title: "Quanty - AI-Powered Market Analysis and Insight Platform",
     description:
-      "Quanty is an AI-powered undamental Analysis Platform that helps you find insights from the market.",
+      "Quanty is an AI-powered market analysis platform that helps you find insights from the market.",
     images: ["https://quanty.ai/assets/quanty-opengraph.png"],
     creator: "@pluscodeio",
   },
