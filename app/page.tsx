@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { gradient } from "@/components/Gradient";
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Home() {
   useEffect(() => {
@@ -15,13 +16,18 @@ export default function Home() {
 
   return (
     <AnimatePresence>
-      <div className="min-h-[100vh] sm:min-h-screen w-screen flex flex-col relative bg-white font-inter overflow-hidden">
+      <div className="min-h-[100vh] sm:min-h-screen w-screen flex flex-col relative bg-[#F9F7F7] font-inter overflow-hidden">
        
         <main className="flex flex-col justify-center h-[90%] static md:fixed w-screen overflow-hidden grid-rows-[1fr_repeat(3,auto)_1fr] z-[100] pt-[30px] pb-[320px] px-4 md:px-20 md:py-0">
           {/* Logo */}
-          <h2 className="md:ml-[-10px] font-semibold text-[#1a2b3b] md:text-[40px]">
-          Quanty.ai
-          </h2>
+          <div className="md:ml-[-10px] md:mb-3 font-semibold text-[#1a2b3b] md:text-[40px]">
+            <Image
+              src="/assets/quanty-logo-dark-new.svg"
+              width={180}
+              height={57}
+              alt="Quanty logo"
+            />
+          </div>
 
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
@@ -49,7 +55,7 @@ export default function Home() {
           >
             <div className="w-full">
               <h2 className="flex items-center font-semibold text-[1em] text-[#1a2b3b]">
-                What is Quanty.ai
+                What is Quanty?
               </h2>
               <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
               Platform delivers AI-powered cryptocurrency insights, harnessing the power of knowledge graphs for deep market understanding. Dive into a world of intelligent analytics and data-rich visualizations, all driven by advanced algorithms to guide your investment strategies.
@@ -122,7 +128,7 @@ export default function Home() {
           data-transition-in
           className="z-50 fixed top-0 right-[-2px] w-[80%] md:w-1/2 h-screen bg-[#c3e4ff]"
         ></motion.canvas>
-        <div className="h-[60px] bg-[#1E2B3A] pt-[1.15rem] md:pt-0 fixed bottom-0 z-[1000] md:z-20 w-full flex flex-row items-start">
+        <div className="h-[60px] bg-[#18202C] pt-[1.15rem] md:pt-0 fixed bottom-0 z-[1000] md:z-20 w-full flex flex-row items-start">
           <p className="text-white/80 text-sm ml-4 md:ml-20 md:text-sm font-semibold md:leading-[60px] whitespace-nowrap flex flex-row">
           Quanty.ai © {year}
           </p>
