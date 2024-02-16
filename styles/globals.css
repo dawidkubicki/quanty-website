@@ -5,6 +5,19 @@
 #gradient-canvas {
   --gradient-color-1: #043D5D; 
   --gradient-color-2: #032E46; 
-  --gradient-color-3: #23B684;  
+  --gradient-color-3: #21DC82;  
   --gradient-color-4: #0F595E;
 }
+/* #gradient-canvas {
+  --gradient-color-1: #043D5D; 
+  --gradient-color-2: #032E46; 
+  --gradient-color-3: #23B684;  
+  --gradient-color-4: #0F595E;
+} */
+
+/* #gradient-canvas {
+  --gradient-color-1: #01150e; 
+  --gradient-color-2: #7AE96A; 
+  --gradient-color-3: #010203;  
+  --gradient-color-4: rgb(4, 23, 16);
+} */

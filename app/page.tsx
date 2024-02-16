@@ -37,11 +37,11 @@ export default function Home() {
               duration: 0.95,
               ease: [0.165, 0.84, 0.44, 1],
             }}
-            className="relative md:ml-[-10px] md:mb-[37px] font-extrabold text-[16vw] md:text-[130px] font-inter text-[#1E2B3A] leading-[1.0] tracking-[-2px] z-[100]"
+            className="relative md:ml-[-10px] md:mb-[37px] font-extrabold text-[16vw] md:text-[130px] font-inter text-[#010203] leading-[1.0] tracking-[-2px] z-[100]"
           >
             Enhance your <br />
-            market <span className="text-[#23B684]">insights</span>
-            <span className="font-inter text-[#23B684]">.</span>
+            market <span className="text-[#29D280]">insights</span>
+            <span className="font-inter text-[#29D280]">.</span>
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -77,7 +77,7 @@ export default function Home() {
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLScBxKHxvVg7bhiI2wL9OLlqSNHkEhFAvaRSJ1A2cmQgBbgTzw/viewform?usp=sf_link"
                 target="_blank"
-                className="group rounded-full pl-[8px] min-w-[180px] pr-4 py-2 text-[13px] font-semibold transition-all flex items-center justify-center bg-[#1E2B3A] text-white hover:[linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #0D2247] no-underline flex gap-x-2  active:scale-95 scale-100 duration-75"
+                className="group rounded-full pl-[8px] min-w-[180px] pr-4 py-2 text-[13px] font-semibold transition-all flex items-center justify-center bg-[#010203] text-white hover:[linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #0D2247] no-underline flex gap-x-2  active:scale-95 scale-100 duration-75"
                 style={{
                   boxShadow:
                     "0px 1px 4px rgba(13, 34, 71, 0.17), inset 0px 0px 0px 1px #061530, inset 0px 0px 0px 2px rgba(255, 255, 255, 0.1)",
@@ -128,7 +128,7 @@ export default function Home() {
           data-transition-in
           className="z-50 fixed top-0 right-[-2px] w-[80%] md:w-1/2 h-screen bg-[#c3e4ff]"
         ></motion.canvas>
-        <div className="h-[60px] bg-[#18202C] pt-[1.15rem] md:pt-0 fixed bottom-0 z-[1000] md:z-20 w-full flex flex-row items-start">
+        <div className="h-[60px] bg-[#010203] pt-[1.15rem] md:pt-0 fixed bottom-0 z-[1000] md:z-20 w-full flex flex-row items-start">
           <p className="text-white/80 text-sm ml-4 md:ml-20 md:text-sm font-semibold md:leading-[60px] whitespace-nowrap flex flex-row">
           Quanty.ai © {year}
           </p>
